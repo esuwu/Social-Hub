@@ -13,3 +13,14 @@
 - Social-Hub как и любая другая социальная сеть имеет много отдельных сервисов - сообщения, группы, друзья и прочее. Это REST API веб-сервис, все начинается с регистрации, пользователь заполняет формочку, фронтенд формирует Json и отправляет данные на сервер, который обрабатывает данные и кладет их в СУБД, отдает статус ответа. Почти так же работают все остальные части приложения.
 
 ## Как запустить?
+1) Установка баз данных
+ - Установить [Postgresql](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04-ru) и назначить пользователю "postgres" пароль "postgres" внутри субд и создать базу данных "vk":
+  sudo su postgres
+  createdb vk
+  psql vk
+  ALTER USER postgres WITH PASSWORD 'postgres';
+  
+- Установить [Reddis](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-ru)
+
+2) Запуск фронтенда
+ 
