@@ -30,6 +30,7 @@
 3) Запуск бекенда
 -  Установка Go не ранее 1.14 версии
 -  cd BackEnd
+-  go mod download
 -  go get
 -  ./starter.sh
 
