@@ -15,10 +15,10 @@
 ## Как запустить?
 1) Установка баз данных
  - Установить [Postgresql](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04-ru) и назначить пользователю "postgres" пароль "postgres" внутри субд и создать базу данных "vk":
-  sudo su postgres
-  createdb vk
-  psql vk
-  ALTER USER postgres WITH PASSWORD 'postgres';
+  * sudo su postgres
+  * createdb vk
+  * psql vk
+  * ALTER USER postgres WITH PASSWORD 'postgres';
   
 - Установить [Reddis](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-ru)
 
