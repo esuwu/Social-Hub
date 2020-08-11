@@ -23,4 +23,14 @@
 - Установить [Reddis](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-ru)
 
 2) Запуск фронтенда
+ - cd FrontEnd
+ - npm install
+ - npm run server
  
+3) Запуск бекенда
+-  Установка Go не ранее 1.14 версии
+-  cd BackEnd
+-  go get
+-  ./starter.sh
+
+## Веб-сервис будет работать на localhost:
